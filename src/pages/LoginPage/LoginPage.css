@@ -1,0 +1,58 @@
+/* Quitar margen y altura total del fondo */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* evita scroll no deseado */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fondo degradado suave */
+.login-bg {
+    background: linear-gradient(to right, #fff8e7, #f3e5f5);
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+
+/* Card centrado con bordes suaves */
+.login-card {
+    width: 100%;
+    max-width: 450px; /* Aumentado ligeramente el ancho */
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+/* Logo con sombra dorada */
+.logo-shadow {
+    width: 170px;
+    filter: drop-shadow(0 0 8px #ffd700);
+}
+
+/* Título */
+.login-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Enlaces uno debajo del otro, centrados */
+.small-links {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}
+
+/* Hover en enlaces inferiores */
+.small-links a {
+    transition: color 0.3s ease;
+}
+
+.small-links a:hover {
+    color: #ffd700 !important;
+    text-decoration: underline;
+}
+
+
