@@ -94,8 +94,7 @@ function LoginPage() {
                 await linkWithCredential(result.user, credential);
                 console.log("Cuenta vinculada con Google.");
             }
-
-            Swal.fire("Bienvenido", "Sesión iniciada con Google", "success");
+            Swal.fire("Bienvenido", `Sesión iniciada con Google como ${emailGoogle}`, "success");
             navigate("/dashboard");
         } catch (error) {
             console.error("Error Google Login:", error);

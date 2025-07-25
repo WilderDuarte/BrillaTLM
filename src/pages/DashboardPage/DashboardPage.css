@@ -1,8 +1,13 @@
 /* src/pages/DashboardPage.css */
+
+/* Fondo general */
 body {
     background: linear-gradient(to bottom right, #fffaf5, #f4e1ff);
+    margin: 0;
+    /*padding-top: 70px;  espacio para navbar fija */
 }
 
+/* Área principal */
 .dashboard-main {
     display: flex;
     align-items: center;
@@ -11,6 +16,7 @@ body {
     overflow: hidden;
 }
 
+/* Contenedor de bienvenida */
 .dashboard-welcome {
     padding: 2rem;
     background: white;
@@ -20,11 +26,13 @@ body {
     width: 90%;
 }
 
+/* Logo */
 .dashboard-logo {
     width: 120px;
     margin-bottom: 1rem;
 }
 
+/* Avatar del usuario */
 .dashboard-avatar {
     width: 80px;
     height: 80px;
@@ -32,6 +40,7 @@ body {
     margin-bottom: 1rem;
 }
 
+/* Info del usuario */
 .dashboard-user-info {
     margin-top: 1rem;
     font-size: 1.1rem;
@@ -39,12 +48,18 @@ body {
     line-height: 1.5;
 }
 
+/* Navbar superior */
 .dashboard-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #1c1c1c !important;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Footer inferior */
 .footer {
-    /* background: #2c2c2c; */
     color: #f5f5f5;
     padding: 15px 0;
     position: fixed;
@@ -64,11 +79,24 @@ body {
     color: #fff;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    background-color: #1c1c1c !important;
-    transition: all 0.3s ease;
+/* Dropdown custom hover */
+.dropdown-menu-dark .dropdown-item:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #1c1c1c;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #343a40;
+    color: white;
 }
