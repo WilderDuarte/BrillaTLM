@@ -52,7 +52,7 @@ html, body {
 
 .small-links a:hover {
     color: #ffd700 !important;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 

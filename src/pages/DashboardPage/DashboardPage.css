@@ -1,0 +1,45 @@
+.dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #fefefe;
+    /* Marfil claro */
+    color: #333;
+}
+
+.navbar {
+    background-color: #1c1c1c !important;
+    /* oscuro */
+    border-bottom: 2px solid #d4af37;
+    /* dorado */
+}
+
+.navbar .btn,
+.navbar .dropdown-toggle {
+    font-weight: 500;
+    color: #ffffff;
+    border-color: #d4af37;
+    background-color: transparent;
+}
+
+.navbar .btn:hover,
+.navbar .dropdown-toggle:hover {
+    background-color: #d4af37;
+    color: #1c1c1c;
+}
+
+.welcome-container {
+    flex: 1;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom right, #dcd0ff, #f5f5f5);
+    /* lila-marfil */
+}
+
+.logo-main {
+    width: 120px;
+    height: auto;
+}
+
+.footer {
+    font-size: 14px;
+}
