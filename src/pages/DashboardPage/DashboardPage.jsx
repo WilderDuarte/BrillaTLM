@@ -1,13 +1,12 @@
 // Importación de librerías necesarias
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Navbar,Nav,Container,NavDropdown,Image,Button } from "react-bootstrap";
+import { Container,Image,Button } from "react-bootstrap";
 import { FaUserCircle } from "react-icons/fa";
 import Swal from "sweetalert2";
 import { auth } from "../../firebase";
-import { GoogleAuthProvider } from "firebase/auth";
-import NavbarDashboard from "../../Components/NavbarDashboard";
-import FooterDashboard from "../../Components/FooterDashboard";
+import NavbarDashboard from "../Components/NavbarDashboard";
+import FooterDashboard from "../Components/FooterDashboard";
 import logo from "../../assets/brilla.png";
 import "./DashboardPage.css";
 

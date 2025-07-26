@@ -4,7 +4,7 @@ import Register from "./pages/RegisterPage/RegisterPage"
 import Dashboard from "./pages/DashboardPage/DashboardPage"
 import NotFoundPage from "./pages/Components/NotFound";
 import ProtectedRoute from "./pages/Components/ProtectedRoute";
-import Logout from "./pages/Components/LogoutUser";
+import Logout from "./pages/Components/LogoutUser.js";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage/ForgotPasswordPage"
 import ResetPasswordPage from "./pages/ResetPasswordPage/ResetPasswordPage"
 import "./App.css";
