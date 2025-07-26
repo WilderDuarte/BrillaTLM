@@ -43,39 +43,39 @@ function DashboardPage() {
         });
 
         if (result.isConfirmed) {
-            await signOut(auth);
-            navigate("/");
+            navigate("/logout");
         }
     };
 
+
     // Enlazar cuenta con Google
-const handleLinkGoogle = async () => {
-    try {
-        await linkWithPopup(user, googleProvider);
+    const handleLinkGoogle = async () => {
+        try {
+            await linkWithPopup(user, googleProvider);
 
-        // Recargar datos del usuario desde Firebase
-        await auth.currentUser.reload();
-        const updatedUser = auth.currentUser;
+            // Recargar datos del usuario desde Firebase
+            await auth.currentUser.reload();
+            const updatedUser = auth.currentUser;
 
-        setUser(updatedUser); // Actualiza el estado con los nuevos datos
+            setUser(updatedUser); // Actualiza el estado con los nuevos datos
 
-        Swal.fire(
-            "Cuenta vinculada",
-            "Tu cuenta de Google fue vinculada exitosamente.",
-            "success"
-        );
-    } catch (error) {
-        if (error.code === "auth/credential-already-in-use") {
             Swal.fire(
-                "Error",
-                "Esta cuenta de Google ya está vinculada a otro usuario.",
-                "error"
+                "Cuenta vinculada",
+                "Tu cuenta de Google fue vinculada exitosamente.",
+                "success"
             );
-        } else {
-            Swal.fire("Error", error.message, "error");
+        } catch (error) {
+            if (error.code === "auth/credential-already-in-use") {
+                Swal.fire(
+                    "Error",
+                    "Esta cuenta de Google ya está vinculada a otro usuario.",
+                    "error"
+                );
+            } else {
+                Swal.fire("Error", error.message, "error");
+            }
         }
-    }
-};
+    };
 
 
     if (!user) return null;

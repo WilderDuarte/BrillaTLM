@@ -56,8 +56,15 @@ function LoginPage() {
             }
 
             await signInWithEmailAndPassword(auth, email, password);
-            Swal.fire("Éxito", "Inicio de sesión exitoso", "success");
-            navigate("/dashboard");
+            Swal.fire({
+                icon: "success",
+                title: "Bienvenido",
+                text:  `Sesión iniciada como ${email}`,
+                timer: 1000,
+                showConfirmButton: false,
+            }).then(() => navigate("/dashboard"));
+
+
         } catch (error) {
             Swal.fire("Error", "Credenciales incorrectas", "error");
         }
@@ -94,8 +101,13 @@ function LoginPage() {
                 await linkWithCredential(result.user, credential);
                 console.log("Cuenta vinculada con Google.");
             }
-            Swal.fire("Bienvenido", `Sesión iniciada con Google como ${emailGoogle}`, "success");
-            navigate("/dashboard");
+            Swal.fire({
+                icon: "success",
+                title: "Bienvenido",
+                text:  `Sesión iniciada con Google como ${emailGoogle}`,
+                timer: 1000,
+                showConfirmButton: false,
+            }).then(() => navigate("/dashboard"));
         } catch (error) {
             console.error("Error Google Login:", error);
             Swal.fire("Error", "No se pudo iniciar sesión con Google", "error");
