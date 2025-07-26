@@ -5,7 +5,8 @@ import Dashboard from "./pages/DashboardPage/DashboardPage"
 import NotFoundPage from "./pages/Components/NotFound";
 import ProtectedRoute from "./pages/Components/ProtectedRoute";
 import Logout from "./pages/Components/LogoutUser";
-
+import ForgotPasswordPage from "./pages/ForgotPasswordPage/ForgotPasswordPage"
+import ResetPasswordPage from "./pages/ResetPasswordPage/ResetPasswordPage"
 import "./App.css";
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+        <Route path="/reset-password" element={<ResetPasswordPage />} />
 
         {/* ### Rutas protegidas ### */}
         <Route path="/dashboard"   element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />

@@ -1,0 +1,61 @@
+/* Contenedor centralizado para login, register, reset, etc. */
+.auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+}
+
+/* Estilo de la tarjeta principal */
+.auth-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Inputs y botones */
+.auth-form input,
+.auth-form select {
+    border-radius: 6px;
+}
+
+.auth-form button {
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* Para mensajes temporales como loaders o textos pequeños */
+.auth-hint {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.auth-bg {
+    background: linear-gradient(to right, #fff8e7, #f3e5f5);
+
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.auth-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.logo-shadow {
+    width: 120px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
