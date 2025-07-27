@@ -55,7 +55,7 @@ function NavbarDashboard() {
                     <Nav className="ms-auto">
                         <NavDropdown title="Personas" menuVariant="dark">
                             <NavDropdown.Item onClick={() => navigate("/clientes")}>Clientes</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate("/auxiliares")}>Auxiliares</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/assistant")}>Auxiliares</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Cronograma" menuVariant="dark">
                             <NavDropdown.Item onClick={() => navigate("/cronograma/ingresar")}>Ingresar</NavDropdown.Item>
