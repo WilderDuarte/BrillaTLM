@@ -1,0 +1,112 @@
+[
+  {
+    "servicio": "Pedicure SPA Semipermanente para Mujer con Masaje relajante",
+    "tiempo": "2 h y 5 min",
+    "descripcion": "✨ Pedicure SPA Semipermanente para Mujer con Masaje Relajante en Brilla ✨ Disfruta de una experiencia de relajación total con nuestro pedicure SPA semipermanente. Embellecemos tus pies con un tratamiento profundo que incluye exfoliación, hidratación y un masaje relajante, finalizando con un esmaltado de larga duración. ¡Pies suaves, descansados y perfectos! 💅🦶",
+    "valor": "53000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436586"
+  },
+  {
+    "servicio": "Técnica Baño Acrílico en Uña Natural",
+    "tiempo": "1 h y 45 min",
+    "descripcion": "✨ Técnica Baño Acrílico en Uña Natural en Brilla ✨ Fortalece y protege tus uñas naturales con nuestro baño de acrílico. Aporta resistencia, un acabado uniforme y un brillo impecable, manteniendo un look natural y elegante. ¡Luce uñas más fuertes y hermosas por más tiempo! 💅✨💖",
+    "valor": "55000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436598"
+  },
+  {
+    "servicio": "Pedicure Semipermanente para Mujer",
+    "tiempo": "1 h y 35 min",
+    "descripcion": "✨ Pedicure Semipermanente para Mujer en Brilla ✨ Luce unos pies impecables por más tiempo con nuestro pedicure semipermanente. Hidratamos, embellecemos tus uñas y aplicamos esmalte de larga duración con un acabado brillante y resistente. ¡Disfruta de pies suaves y perfectos! 💅✨💖",
+    "valor": "33000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436602"
+  },
+  {
+    "servicio": "Técnica Deep Powder",
+    "tiempo": "1 h y 35 min",
+    "descripcion": "✨ Técnica Deep Powder en Brilla ✨ Logra uñas resistentes y elegantes con la técnica Deep Powder. Este sistema en polvo proporciona mayor durabilidad, un acabado natural y sin necesidad de lámpara UV. ¡Uñas fuertes, impecables y con un color vibrante por más tiempo! 💅✨💖",
+    "valor": "45000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436606"
+  },
+  {
+    "servicio": "Manicure Tradicional para Mujer",
+    "tiempo": "50 min",
+    "descripcion": "✨ Manicure Tradicional con Secado Rápido para Mujer en Brilla ✨ Luce unas manos impecables en minutos con nuestro manicure tradicional y secado rápido. Damos forma a tus uñas, hidratamos cutículas y aplicamos esmalte con acabado brillante y de rápida fijación. ¡Manos bellas y listas al instante! 💅✨💖",
+    "valor": "20000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436610"
+  },
+  {
+    "servicio": "Pedicure Tradicional para Mujer",
+    "tiempo": "1 h y 35 min",
+    "descripcion": "✨ Pedicure Tradicional para Mujer en Brilla ✨ Consiente tus pies con nuestro pedicure tradicional. Eliminamos durezas, hidratamos la piel y damos forma a tus uñas para dejarlas impecables y saludables. ¡Disfruta de unos pies suaves, bellos y renovados! 💖🦶✨",
+    "valor": "23000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436614"
+  },
+  {
+    "servicio": "Manicure Tradicional para Hombre",
+    "tiempo": "45 min",
+    "descripcion": "✨ Manicure Tradicional para Hombre en Brilla ✨ Cuida la salud y apariencia de tus manos con nuestro manicure tradicional. Damos forma a las uñas, hidratamos cutículas y pulimos para un acabado limpio y natural. ¡Manos bien cuidadas y listas para cualquier ocasión! 💅✨💖",
+    "valor": "18000",
+    "publico": "hombre",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "fechaCreacion": "2025-07-27T21:49:06.436618"
+  },
+  {
+    "servicio": "Técnica Uñas Acrílicas - Desde",
+    "tiempo": "2 h y 20 min",
+    "descripcion": "✨ Técnica de Uñas Acrílicas en Brilla ✨ Transforma tus manos con nuestras uñas acrílicas, ideales para obtener un acabado fuerte, duradero y de aspecto impecable. Personalizamos el diseño y la forma según tu estilo, logrando uñas largas y perfectas por más tiempo. ¡Luce unas manos espectaculares y bien cuidadas! 💅✨💖",
+    "valor": "75000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436623"
+  },
+  {
+    "servicio": "Retoque Acrílico + Nuevo Diseño",
+    "tiempo": "1 h y 45 min",
+    "descripcion": "✨ Retoque Acrílico + Nuevo Diseño en Brilla ✨ Renueva y personaliza tus uñas con nuestro servicio de retoque acrílico, acompañado de un diseño nuevo y fresco. Rellenamos, damos forma y aplicamos un diseño único para que luzcas unas uñas impecables, fuertes y llenas de estilo. ¡Luce manos perfectas por más tiempo! 💅✨💖",
+    "valor": "45000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436626"
+  },
+  {
+    "servicio": "Manicura Semipermanente para Mujer",
+    "tiempo": "1 h y 20 min",
+    "descripcion": "✨ Manicura Semipermanente para Mujer en Brilla ✨ Disfruta de uñas perfectas y de larga duración con nuestra manicura semipermanente. Hidratamos tus cutículas, damos forma a las uñas y aplicamos un esmalte de alta calidad que se mantiene impecable por semanas. ¡Luce manos hermosas y siempre listas! 💅✨💖",
+    "valor": "38000",
+    "categoria": "manos y pies",
+    "activo": true,
+    "destacado": false,
+    "publico": "mujer",
+    "fechaCreacion": "2025-07-27T21:49:06.436628"
+  }
+]

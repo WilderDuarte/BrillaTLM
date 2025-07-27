@@ -8,6 +8,7 @@ import Logout from "./pages/Components/LogoutUser.js";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage/ForgotPasswordPage"
 import ResetPasswordPage from "./pages/ResetPasswordPage/ResetPasswordPage"
 import AssistantPage from "./pages/AssistantPage/AssistantPage";
+import ServicesPage from "./pages/ServicesPage/ServicesPage"
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         {/* ### Rutas protegidas ### */}
         <Route path="/dashboard"   element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
         <Route path="/assistant"   element={<ProtectedRoute><AssistantPage /></ProtectedRoute>} />
+        <Route path="/services"   element={<ProtectedRoute><ServicesPage /></ProtectedRoute>} />
 
         {/* Ruta genérica para páginas no encontradas */}
         <Route path="*" element={<NotFoundPage />} />

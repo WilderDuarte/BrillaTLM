@@ -53,6 +53,7 @@ function NavbarDashboard() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
+                        <Nav.Link onClick={() => navigate("/services")}>Servicios</Nav.Link>
                         <NavDropdown title="Personas" menuVariant="dark">
                             <NavDropdown.Item onClick={() => navigate("/clientes")}>Clientes</NavDropdown.Item>
                             <NavDropdown.Item onClick={() => navigate("/assistant")}>Auxiliares</NavDropdown.Item>
@@ -61,11 +62,11 @@ function NavbarDashboard() {
                             <NavDropdown.Item onClick={() => navigate("/cronograma/ingresar")}>Ingresar</NavDropdown.Item>
                             <NavDropdown.Item onClick={() => navigate("/cronograma/listar")}>Listar</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Servicios" menuVariant="dark">
+                        {/* <NavDropdown title="Servicios" menuVariant="dark">
                             <NavDropdown.Item onClick={() => navigate("/servicios/ingresar")}>Ingresar</NavDropdown.Item>
                             <NavDropdown.Item onClick={() => navigate("/servicios/listar")}>Listar</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link onClick={() => navigate("/opcion")}>Opción</Nav.Link>
+                        </NavDropdown> */}
+                        {/* <Nav.Link onClick={() => navigate("/opcion")}>Opción</Nav.Link> */}
                         <NavDropdown
                             title={
                                 user.photoURL ? (
